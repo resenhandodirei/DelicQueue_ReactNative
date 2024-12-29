@@ -1,26 +1,24 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 
-import { styles } from '../Logo/LogoStyles';
+import { styles } from './LogoStyles';
+import logoImage from '../../../assets/logo.png';
 
-import Deliclogo from '../../../assets/logo.png';
-
-export function logo() {
+export function LogoImage() {
   return (
-    <View>
+    <>
         <Text style={styles.title}>
             DelicQueue Generator
         </Text>
 
         <Image 
-        source={Deliclogo}
+        source={logoImage}
         style={{
             resizeMode: 'contain',
             height:180
         }}
         />
-    </View>
+    </>
   );
 }
 
-export { Deliclogo };
