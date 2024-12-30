@@ -3,20 +3,17 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     appContainer: {
         flex: 1,
-        backgroundColor: 'gray',
+        backgroundColor: '#F2E1D8',
         alignItems: 'center',
         justifyContent: 'center',
     },
     logoContainer:{
         flexDirection:'column',
-        borderColor: 'red',
-        borderWidth:2,
         justifyContent:'center',
         alignSelf:'center',
         marginBottom:60,
         paddingTop:20,
-        paddingBottom:10,
-        backgroundColor:'#4D4D4D'
+        //paddingBottom:250,
       },
       inputContainer:{
         width:'80%',

@@ -7,9 +7,6 @@ import logoImage from '../../../assets/logo.png';
 export function LogoImage() {
   return (
     <>
-        <Text style={styles.title}>
-            DelicQueue Generator
-        </Text>
 
         <Image 
         source={logoImage}
@@ -17,7 +14,18 @@ export function LogoImage() {
             resizeMode: 'contain',
             height:180
         }}
+
         />
+        <Text style={styles.title}>
+            FilaMed
+        </Text>
+
+        <Text style={styles.subtitle}>
+        Organize e agilize o atendimento: gestão inteligente para sua clínica.
+        </Text>
+
+        
+      
     </>
   );
 }
