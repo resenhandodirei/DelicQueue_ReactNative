@@ -81,5 +81,5 @@ Se tiver dúvidas ou sugestões, entre em contato:
 - Nome: Larissa Corrêa
 - GitHub: [resenhandodirei](https://github.com/resenhandodirei)
 - E-mail: larissamscorrea@gmail.com
+![Screenshot_1735592066](https://github.com/user-attachments/assets/49ce9c73-0bba-45e3-b24b-c5929b8fd6b4)
 
-![Screenshot_1735591815](https://github.com/user-attachments/assets/e4e58185-30a6-434b-9ed7-8eaa9104aeb2)
