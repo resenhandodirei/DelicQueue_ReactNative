@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput } from 'react-native';
+import { TextInput as RNTextInput } from 'react-native';
 
 import { styles } from '../TextInput/TextInputStyles';
 
@@ -10,11 +10,11 @@ interface TextInputProps {
 export function TextInput(props : TextInputProps) {
   return (
 
-    <TextInput
+    <RNTextInput
     style={styles.inputer} 
     placeholder='pass'>
 
-    </TextInput>
+    </RNTextInput>
 
   );
 }

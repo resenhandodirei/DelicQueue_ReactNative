@@ -4,7 +4,8 @@ import { StatusBar  } from "expo-status-bar";
 
 import styles from './Style';
 import { LogoImage } from "../../components/Logo/LogoImage";
-// import TextInput from "../../components/TextInput/TextInput";
+import { TextInput } from "../../components/TextInput/TextInput";
+import { Button } from '../../components/Button/Button'
 
 
 export default function Home() {
@@ -15,6 +16,9 @@ export default function Home() {
                 <LogoImage />
             </View>
             
+            <View style={styles.inputContainer}>
+                <Button/>
+            </View>
 
             <StatusBar style="auto" />
             
