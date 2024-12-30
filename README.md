@@ -68,7 +68,7 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
    ```bash
    git push origin feature/nova-feature
    ```
-5. Abra um Pull Request na branch principal.
+5. Abra um Pull Request na branch dev.
 
 ## Licença
 
