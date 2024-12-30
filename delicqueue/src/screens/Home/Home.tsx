@@ -6,7 +6,7 @@ import styles from './Style';
 import { LogoImage } from "../../components/Logo/LogoImage";
 import { TextInput } from "../../components/TextInput/TextInput";
 import { Button } from '../../components/Button/Button'
-
+import Spacer from '../../components/Spacer/Spacer';
 
 export default function Home() {
     return(
@@ -18,6 +18,10 @@ export default function Home() {
             
             <View style={styles.inputContainer}>
                 <Button/>
+            </View>
+
+            <View>
+                <Spacer />
             </View>
 
             <StatusBar style="auto" />

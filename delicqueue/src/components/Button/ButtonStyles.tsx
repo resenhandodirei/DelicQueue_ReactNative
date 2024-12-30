@@ -10,13 +10,13 @@ export const styles = StyleSheet.create({
         paddingHorizontal:32,
         borderRadius:4,
         elevation:3,
-        backgroundColor: 'black'
+        backgroundColor: '#132240'
       },
       text:{
         fontSize: 16,
         lineHeight:21,
         fontWeight:'bold',
         letterSpacing: 0.25,
-        color: '#E5BF3C'
+        color: '#F2E1D8'
       }
 });
